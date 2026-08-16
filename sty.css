@@ -1,0 +1,97 @@
+*{
+    padding: 0;
+    margin: 0;
+
+}
+body{
+     font-family: "Playfair Display", serif;
+}
+.container{
+    padding:50px;
+}
+.sec-1{
+    background-color: black;
+    color:white;
+    padding: 20px;
+}
+.sec-1__contact{
+    background-color: orangered;
+    color: white;
+    text-decoration: none;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    display: inline-block;
+    margin-top: 5px;
+}
+.sec-1__name{
+    font-size :70px;
+}
+.sec-1__role{
+    font-size: 50px;
+     margin-top: 10px;
+}
+.sec-2,.sec-3,.sec-4,.sec-5{
+    margin-top: 20px;
+}
+.sec-2{
+    margin-top: 10px;
+}
+.sec-2__desc,.sec-3__desc,.sec-4__desc,.sec-5__desc{
+    margin-top: 10px;
+}
+.sec-5{
+    background-color: black;
+    color: white;
+    padding: 10px;
+}
+.sec-5__title a{
+     color: skyblue;
+}
+.sec-3 li,.sec-4 li{
+     list-style: none;
+}
+.sec-3{
+    background-color: #6462FD;
+    color: black;
+    padding: 20px;
+    display: inline-block;
+    height: 120px;
+    border-radius:10px;
+    vertical-align: top;
+}
+.sec-4{
+    background-color: #FE7517;
+    color: black;
+    padding: 20px;
+    display: inline-block;
+    height: 120px;
+    border-radius: 10px;
+    vertical-align: top;
+}
+.c-form{
+   margin-top: 20px;
+}
+.c-form__input,.c-form__textarea,.c-form__submit{
+    margin-top: 10px;
+}
+.c-form__input{
+    padding: 10px;
+    border: none;
+    border-bottom: solid black 1px;
+}
+.c-form__textarea{
+    padding: 10px;
+    border: none;
+    border: solid black 1px;
+}
+.c-form__submit{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: orangered;
+    color:black;
+    border:none;
+}
